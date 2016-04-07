@@ -1,5 +1,6 @@
-#Variable Size Int Array 
+#Variable Size Int Array [![Build Status](https://travis-ci.org/FrancescoSaverioZuppichini/Variable-Size-Int-Array.svg?branch=master)](https://travis-ci.org/FrancescoSaverioZuppichini/Variable-Size-Int-Array)
 ##A easy array-object implemenent in c
+
 ### *Implemeneted by Francesco Saverio Zuppichini*
 
 ###How to use it
