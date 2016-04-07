@@ -41,10 +41,10 @@ int var_int_array_size(const var_int_array * this){
 
 void var_int_array_append(var_int_array *this, int el){
     
-    if(this->size == this->cap){
+    if(this->size == this->cap ){
         /* need to alloc new memory */
         this->cap *= 2;
-        this->list = realloc(this->list, this->cap);
+        this->list = realloc(this->list, sizeof(int) * this->cap);
     }
     this->list[this->size] = el;
     this->size++;

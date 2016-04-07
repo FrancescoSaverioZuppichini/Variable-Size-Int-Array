@@ -16,7 +16,7 @@ int main(int argc, const char * argv[]) {
     for (i = 0; i < 15; i++) {
         var_int_array_append(myArray, i);
     }
-    for (i = 0; i < 15; i++) {
+    for (i = 0; i < var_int_array_size(myArray) ; i++) {
         printf("%i\n",var_int_array_get(myArray, i));
     }
     
