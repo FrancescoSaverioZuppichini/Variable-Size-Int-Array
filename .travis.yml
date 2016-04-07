@@ -1,0 +1,4 @@
+language: c
+install: true
+compiler: gcc
+script: gcc main.c variabile_Int_Array.c -o variabile_Int_Array 
