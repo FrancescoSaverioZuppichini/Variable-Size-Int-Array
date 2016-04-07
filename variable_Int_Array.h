@@ -6,8 +6,8 @@
 //  Copyright © 2016 Francesco Saverio Zuppichini. All rights reserved.
 //
 
-#ifndef variabile_Int_Array_h
-#define variabile_Int_Array_h
+#ifndef variable_Int_Array_h
+#define variable_Int_Array_h
 
 #include <stdio.h>
 #include <stdlib.h>

@@ -7,7 +7,7 @@
 //
 
 #include <stdio.h>
-#include "variabile_Int_Array.h"
+#include "variable_Int_Array.h"
 
 int main(int argc, const char * argv[]) {
     int i;

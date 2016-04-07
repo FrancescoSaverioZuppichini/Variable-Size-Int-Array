@@ -5,7 +5,7 @@
 //  Created by Francesco  on 07/04/16.
 //  Copyright © 2016 Francesco Saverio Zuppichini. All rights reserved.
 //
-#include "variabile_Int_Array.h"
+#include "variable_Int_Array.h"
 #define BASIC_CAP 5
 
 struct var_int_array{
