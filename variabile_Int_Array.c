@@ -5,13 +5,15 @@
 //  Created by Francesco  on 07/04/16.
 //  Copyright © 2016 Francesco Saverio Zuppichini. All rights reserved.
 //
-
 #include "variabile_Int_Array.h"
-#define BASIC_CAP 10
+#define BASIC_CAP 5
+
 struct var_int_array{
-    
+    /* the number of item in the array */
     int size;
+    /* the current space avariabile */
     int cap;
+    /* a int pointer used to effectively store the data */
     int *list;
 
 };
